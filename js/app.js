@@ -1,6 +1,6 @@
 $(function() {
 
-	var dataLink = 'https://gist.githubusercontent.com/andriykochura/703231136751dea213997fc85a67c541/raw/80f2edb648986735679083f4e27075a5fd25dbf3/newdata.xml';
+	var dataLink = 'http://gist.githubusercontent.com/andriykochura/703231136751dea213997fc85a67c541/raw/80f2edb648986735679083f4e27075a5fd25dbf3/newdata.xml';
 	// var dataLink = 'data/TMNT.xml';
 	
 	var	model = {
