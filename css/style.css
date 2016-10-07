@@ -1,0 +1,128 @@
+html, body {
+  margin: 0;
+}
+
+body {
+  padding: 20px;
+  background: #fff;
+  color: black;
+  font-family: Lato, sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  display: block;
+  border-bottom: 5px solid black;
+  margin-bottom: 0;
+}
+
+.main-view.hide {
+  display: none;
+}
+
+.main-view.about img {
+  width: 400px;
+  float: left;
+  margin: 10px 40px 0 0;
+}
+
+.main-view.about h2 {
+  color: blue;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.main-view.about a {
+  display: inline-block;
+  padding: 7px 10px 5px 10px;
+  border-radius: 5px;
+  background-color:blue;
+  color: white;
+  text-decoration: none;
+}
+
+/* - - - */
+
+.ninja-filters {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  margin: 12px 0 10px 0;
+}
+
+.filter-item {
+  display: inline-block;
+  position: relative;
+  border: 1px solid blue;
+  border-radius: 5px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+.filter-item::after {
+  content:"ˇ";
+  position: absolute;
+  text-align: center;
+  z-index: -1;
+  font-size: 15px;
+  right: 8px;
+  top: 12px;
+  color: blue;
+}
+
+.filter-item select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  color: blue;
+  position: relative;
+  background: transparent;
+  border: none;
+  text-transform: uppercase;
+  padding: 0 20px 0 10px;
+  height: 30px;
+}
+
+.filter-item select:focus, .filter-item select option:focus {
+  outline: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+/* - - - */
+
+.ninja-list-item.hide {
+  display: none;
+}
+
+.ninja-list-item {
+  display: inline-block;
+  margin: 0 10px 15px 0;
+}
+
+.ninja-list-item a {
+  text-decoration: none;
+}
+
+.ninja-list-item img {
+  display: block;
+  width: 200px;
+  margin-bottom: 10px;
+  border: 0;
+  border-bottom: 5px solid white;
+}
+
+.ninja-list-item span {
+  color: black;
+}
+
+.ninja-list-item a:hover span {
+  color: blue;
+}
+
+.ninja-list-item a:hover img {
+  border-color: blue;
+}
